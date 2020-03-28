@@ -4,9 +4,9 @@ from tkinter import *
 
 
 def bt_click():
-    print('O botão foi pressionado')
+    print('The button was pressed')
 
-    lb['text'] = f'O dado caiu no número: {random.randint(1, 6)}'
+    lb['text'] = f'The number chosen was: {random.randint(1, 6)}'
 
 
 janela = tkinter.Tk()
