@@ -10,7 +10,7 @@ def bt_click():
 
 
 janela = tkinter.Tk()
-janela.title('Dado')
+janela.title('Dice')
 bt = Button(janela, width=20, text='Roll the dice', command=bt_click)
 bt.place(x=190, y=400)
 lb = Label(janela, text='Welcome')
